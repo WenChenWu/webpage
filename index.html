@@ -55,7 +55,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
     <![endif]-->
-    
+
     <!-- Chrome theme-color -->
     <meta name="theme-color" content="#222222">
 </head>
@@ -357,7 +357,7 @@
                         <h4>Wen Chen Wu</h4>
                         <p class="text-muted">Software Engineer</p>
                         <ul class="list-inline social-buttons">
-                            <li><a href="mailto:wuwenchenedward@gmail.com?Subject=Hello%20Wen%20Chen"><i class="fa fa-envelope"></i></a>
+                            <li><a href="/cdn-cgi/l/email-protection#d1a6a4a6b4bfb2b9b4bfb4b5a6b0a3b591b6bcb0b8bdffb2bebcee82a4b3bbb4b2a5ec99b4bdbdbef4e3e186b4bff4e3e192b9b4bf"><i class="fa fa-envelope"></i></a>
                             </li>
                             <li><a href="https://github.com/WenChenWu" target="_blank"><i class="fa fa-github"></i></a>
                             </li>
@@ -460,7 +460,7 @@
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
-                        <li><a href="mailto:wuwenchenedward@gmail.com?Subject=Hello%20Wen%20Chen"><i class="fa fa-envelope"></i></a>
+                        <li><a href="/cdn-cgi/l/email-protection#95e2e0e2f0fbf6fdf0fbf0f1e2f4e7f1d5f2f8f4fcf9bbf6faf8aac6e0f7fff0f6e1a8ddf0f9f9fab0a7a5c2f0fbb0a7a5d6fdf0fb"><i class="fa fa-envelope"></i></a>
                         </li>
                         <li><a href="https://github.com/WenChenWu" target="_blank"><i class="fa fa-github"></i></a>
                         </li>
@@ -665,6 +665,26 @@
     </div>
 
     <!-- jQuery -->
+    <script>
+        ! function(e, t, r, n, c, a, l) {
+            function i(t, r) {
+                return r = e.createElement('div'), r.innerHTML = '<a href="' + t.replace(/"/g, '&quot;') + '"></a>', r.childNodes[0].getAttribute('href')
+            }
+
+            function o(e, t, r, n) {
+                for (r = '', n = '0x' + e.substr(t, 2) | 0, t += 2; t < e.length; t += 2) r += String.fromCharCode('0x' + e.substr(t, 2) ^ n);
+                return i(r)
+            }
+            try {
+                for (c = e.getElementsByTagName('a'), l = '/cdn-cgi/l/email-protection#', n = 0; n < c.length; n++) try {
+                    (t = (a = c[n]).href.indexOf(l)) > -1 && (a.href = 'mailto:' + o(a.href, t + l.length))
+                } catch (e) {}
+                for (c = e.querySelectorAll('.__cf_email__'), n = 0; n < c.length; n++) try {
+                    (a = c[n]).parentNode.replaceChild(e.createTextNode(o(a.getAttribute('data-cfemail'), 0)), a)
+                } catch (e) {}
+            } catch (e) {}
+        }(document);
+    </script>
     <script src="vendor/jquery/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
